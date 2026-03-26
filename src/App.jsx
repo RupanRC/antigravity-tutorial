@@ -4,9 +4,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="app-container">
+    <div className="flex flex-col min-h-screen py-10 px-4 md:px-8 max-w-7xl mx-auto w-full">
       <Header />
-      <MainContent />
+      <div className="flex-grow flex items-center justify-center">
+        <MainContent />
+      </div>
       <Footer />
     </div>
   )
